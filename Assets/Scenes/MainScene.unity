@@ -722,8 +722,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb61a75ebd2f8a346a4cb074684709c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Oliver
   _chat: {fileID: 1493860310}
+  _name: Oliver
 --- !u!1 &221927162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,8 +1080,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e324510517867f4a9f0446e96aa0ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Bob
   _chat: {fileID: 1541655100}
+  _name: Bob
 --- !u!212 &1456663867
 SpriteRenderer:
   m_ObjectHideFlags: 0

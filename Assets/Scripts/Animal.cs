@@ -24,6 +24,7 @@ public abstract class Animal : MonoBehaviour
     protected bool _textDisplay;
 
     InputAction _clickAction;
+    [SerializeField]
     private string _name;
 
     private void Start()
