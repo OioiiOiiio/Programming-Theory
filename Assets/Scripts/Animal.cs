@@ -5,12 +5,26 @@ using UnityEngine.InputSystem;
 
 public abstract class Animal : MonoBehaviour
 {
-    public string _name;
+    // ENCAPSULATION
+    public string Name {
+        get => _name;
+        set {
+            if(value.Length <= 0 || value.Length > 10)
+            {
+                Debug.LogError("Name lenght must be more than 0 and lower than 10!");
+                return;
+            }
+            _name = value;
+        }
+    }
+
     public TextMeshProUGUI _chat;
+    // ABSTRACTION
     public abstract IEnumerator DisplayText();
     protected bool _textDisplay;
 
     InputAction _clickAction;
+    private string _name;
 
     private void Start()
     {
